@@ -8,6 +8,11 @@ Todo o processo foi norteado pela literatura de Chapra & Canale (Métodos Numér
 Há também a análise do fluxo de calor resultante de materiais como o Alumínio e Níquel puros, através do coeficiente de condutividade térmica (k) pela Lei de Fourier de condução.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+$$\frac{\partial^2 T}{\partial x^2} + \frac{\partial^2 T}{\partial y^2} = 0$$
+
+$$T_{i,j} = \frac{T_{i+1,j} + T_{i-1,j} + T_{i,j+1} + T_{i,j-1}}{4}$$
+
+$$\vec{q}'' = -k \nabla T$$
 
 Observação:
 Há alternativas open-source do MATLAB, como o Octave (que aceitam arquivos .m).
