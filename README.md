@@ -13,8 +13,6 @@ EQUAÇÃO DE LAPLACE PARA CONDUÇÃO DE CALOR 2D
 
 $$\frac{\partial^2 T}{\partial x^2} + \frac{\partial^2 T}{\partial y^2} = 0$$
 
-OBS:REGIME PERMANENTE
-
 FORMA DISCRETIZADA DA EQUAÇÃO
 
 $$T_{i,j} = \frac{T_{i+1,j} + T_{i-1,j} + T_{i,j+1} + T_{i,j-1}}{4}$$
@@ -22,8 +20,6 @@ $$T_{i,j} = \frac{T_{i+1,j} + T_{i-1,j} + T_{i,j+1} + T_{i,j-1}}{4}$$
 LEI DE FOURIER PARA O FLUXO DE CALOR
 
 $$\vec{q}'' = -k \nabla T$$
-
-OBS:REGIME PERMANENTE = GRADIENTE DE TEMPERATURA IGUAL
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
